@@ -4,7 +4,7 @@
 
 while true
 do
-    echo "===== Student Record Management System ====="
+    echo " Student Record Management System"
     echo "1. Add Student"
     echo "2. View Students"
     echo "3. Search Student"
@@ -27,7 +27,7 @@ do
         echo "Student Added Successfully!"
 
     elif [ "$choice" -eq 2 ]; then
-        echo "===== Student Records ====="
+        echo "Student Records"
         if [ -f students.txt ]; then
             cat students.txt
         else
